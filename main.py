@@ -18,31 +18,31 @@ elif choose == 2:
 elif choose == 3:
     computer = 's'
 
-print(player, 'vs', computer)
+print(player, ' vs ', computer)
 
 if player == 's' and computer == 's':
-    print('Berabere')
+    print('draw')
 
 if player == 'p' and computer == 'p':
-    print('Berabere')
+    print('draw')
 
 if player == 'r' and computer == 'r':
-    print('Berabere')
+    print('draw')
 
 elif player == 'r' and computer == 's':
-    print('sen kazandin')
+    print('you won')
 
 elif player == 'r' and computer == 'p':
-    print('bilgisayar kazandi')
+    print('computer won')
 
 elif player == 's' and computer == 'r':
-    print('bilgisayar kazandi')
+    print('computer won')
 
 elif player == 's' and computer == 'p':
-    print('sen kazandin')
+    print('you won')
 
 elif player == 'p' and computer == 'r':
-    print('sen kazandin')
+    print('you won')
 
 elif player == 'p' and computer == 's':
-    print('bilgisayar kazandi')
+    print('computer won')
